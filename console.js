@@ -1,6 +1,5 @@
-// let rock = 1;
-// let paper = 2;
-// let scissors = 3;
+// For playing in console only
+
 
 
 // Function for computer choice turned from a random number between 1 and 3
@@ -46,7 +45,8 @@ function game() {
     let playerScore = 0;
     let computerScore = 0;
 
-    // Loop for 5 rounds
+    
+    // Loop for 5 rounds (take loop out for now)
     for (let i = 0; i < 5; i++) {
         const playerSelection = prompt("Please choose: rock, paper or scissors");
         const computerSelection = getComputerChoice();
@@ -61,8 +61,8 @@ function game() {
             computerScore++;
         }
 
-    }
-
+   }
+    
     // Returning the score
     console.log(`Game over\n Your score was : ${playerScore}\n The computers score was: ${computerScore}\n`);
 
@@ -86,3 +86,11 @@ function game() {
 
 // Calls the beginning of the game
 game();
+
+
+
+
+
+
+
+ 
